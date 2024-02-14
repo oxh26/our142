@@ -16,6 +16,28 @@
 <div class="giphy" style="position: absolute; top:200px; right: 350px;">
   <iframe src="https://giphy.com/embed/3oz8xsaLjLVqVXr3tS" width="854" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/sksksk-3oz8xsaLjLVqVXr3tS"></a></p>
 </div>
+<div class="giphy3" style="position: absolute; top:170px; right: 350px;">
+  <iframe src="https://giphy.com/embed/4ayiIWaq2VULC" width="854" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pizza-unicorn-i-love-4ayiIWaq2VULC"></a></p>
+</div>
+<div class="giphy4" style="position: absolute; top:170px; right: 350px;">
+  <iframe src="https://giphy.com/embed/JTydmVWP0vrD0dAQPI" width="854" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/JTydmVWP0vrD0dAQPI"></a></p>
+</div>
+<div class="giphyd" style="position: absolute; top:170px; right: 350px;">
+  <iframe src="https://giphy.com/embed/vGVXngi7wQXkY" width="854" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/evil-laugh-mouhaha-vGVXngi7wQXkY"></a></p>
+</div>
+<div class="giphy2" style="position: absolute; top:170px; right: 350px;">
+  <iframe src="https://giphy.com/embed/l4pThZZYLwIVfZTC8" width="854" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chipotle-food-cooking-l4pThZZYLwIVfZTC8"></a></p>
+</div>
+<div class="giphy1" style="position: absolute; top:170px; right: 450px;">
+  <img src="https://img-global.cpcdn.com/recipes/436ae2d65a0785dd/680x482cq70/banh-beo-ngh%E1%BB%87-an-recipe-main-photo.jpg" alt="" height="480">
+</div>
+<div class="giphy11" style="position: absolute; top:450px; right: 1150px;">
+  <iframe src="https://giphy.com/embed/3d5DiVNB0Y4eZtaP6g" width="360" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/love-illustration-kawaii-3d5DiVNB0Y4eZtaP6g"></a></p>
+</div>
+<div class="giphy12" style="position: absolute; top:500px; right: 50px;">
+  <img src="https://gifaya.com/wp-content/uploads/2019/05/L-Love-You-Animation-Love-Gif-Images.gif" alt="">
+</div>
+
 <div class="button">
     <button id="yes-button" style="position: absolute; top: 300px; left: 450px;">
         <span class="box">
@@ -353,6 +375,13 @@ $("#yes-button2").hide();
 $("#yes-button3").hide();
 $("#yes-button4").hide();
 $(".giphy").hide();
+$(".giphy3").hide();
+$(".giphy1").hide();
+$(".giphy2").hide();
+$(".giphy4").hide();
+$(".giphy12").hide();
+$(".giphy11").hide();
+$(".giphyd").hide();
 
 $("#yes-button").click(function() {
   count++;
@@ -361,6 +390,47 @@ $("#yes-button").click(function() {
   $("#yes-button3").show();
   $(".box3").text("Đi đụ được không?");
   $("#no-button").hide();
+
+  if(count==1){
+    $("#yes-button3").click(function() {
+        $(".title").text("The thi di du nha vk ^^ 🤤🤤");
+        $(".box").text("Dạ");
+        $(".box3").text("Nooooooooo");
+        $("#yes-button").css("left", "500px").css("top", "300px")
+        $("#yes-button3").css("left", "800px").css("top", "300px")
+        
+        $("#yes-button3").click(function(){
+          $("#yes-button").css("width", "170px").css("height", "70px");
+          $("#yes-button3").click(function(){
+            $("#yes-button").css("width", "200px").css("height", "130px");
+              $("#yes-button3").click(function(){
+                $("#yes-button").css("width", "250px").css("height", "200px");
+                  $("#yes-button3").click(function(){
+                    $("#yes-button").css("width", "400px").css("height", "300px");
+                      $("#yes-button3").click(function(){
+                        $("#yes-button").css("width", "600px").css("height", "500px");
+                          $("#yes-button3").click(function(){
+                            $("#yes-button").css("width", "1000px").css("height", "800px").css("left", "0px").css("top", "100px");
+                              $("#yes-button3").click(function(){
+                                $("#yes-button").css("width", "1920px").css("height", "1080px").css("left", "0px").css("top", "0px").css("z-index", "99");
+                                $("yes-button3").hide();
+                                $(".title").text("Sao ấn không nhìu z vk???? 🤤🤤").css("position", "absolute").css("z-index", "100").css("color","black").css("left","500px");
+                    })
+                  })
+                })
+              })
+            })
+          })
+        })
+
+        $("#yes-button").click(function() {
+            $(".giphyd").show();
+            $("#yes-button").hide();
+            $(".title").hide();
+            $("#no-button").hide();
+          });
+    });
+  }
 
   $("#yes-button").click(function() {
     count++;
@@ -386,6 +456,36 @@ $("#yes-button").click(function() {
           $("#yes-button3").css("left", "500px").css("top", "300px")
           $("#yes-button4").show();
           $("#yes-button4").css("left", "800px").css("top", "300px")
+          $("#yes-button3").click(function(){
+            $("#yes-button1").hide();
+            $("#yes-button2").hide();
+            $("#yes-button3").hide();
+            $("#yes-button4").hide();
+            $(".giphy3").show();
+          });
+          $("#yes-button1").click(function(){
+            $("#yes-button1").hide();
+            $("#yes-button2").hide();
+            $("#yes-button3").hide();
+            $("#yes-button4").hide();
+            $(".giphy1").show();
+            $(".giphy11").show();
+            $(".giphy12").show();
+          });
+          $("#yes-button4").click(function(){
+            $("#yes-button1").hide();
+            $("#yes-button2").hide();
+            $("#yes-button3").hide();
+            $("#yes-button4").hide();
+            $(".giphy4").show();
+          });
+          $("#yes-button2").click(function(){
+            $("#yes-button1").hide();
+            $("#yes-button2").hide();
+            $("#yes-button3").hide();
+            $("#yes-button4").hide();
+            $(".giphy2").show();
+          });
         }
       })
 
